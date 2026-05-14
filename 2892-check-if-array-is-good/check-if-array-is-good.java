@@ -11,9 +11,9 @@ class Solution {
                 return false;
             }
         }
-        if(nums[nums.length-1]!=nums[nums.length-2]){
-            return false;
-        }
+        // if(nums[nums.length-1]!=nums[nums.length-2]){
+        //     return false;
+        // }
     return true;
     }
 }
