@@ -6,8 +6,8 @@ class Solution {
         }
         int g = n-1;
         int i = n-2;
-        while(i>= 0){
-            if(nums[i]+i>=g){
+        while(i>=0){
+            if(i+nums[i]>=g){
                 g=i;
             }
             i--;
